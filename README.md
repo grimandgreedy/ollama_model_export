@@ -18,8 +18,8 @@ CUSTOM_OLLAMA_BASE_DIR = ""
 
 | Platform | Ollama Base Directory |
 |----------|----------------------|
-| macOS    | `~/.ollama` |
-| Windows  | `~/.ollama` |
+| macOS    | `~/.ollama/models` |
+| Windows  | `~/.ollama/models` |
 | Linux    | `/var/lib/ollama` `/var/lib/ollama/models` or `/usr/share/ollama` (auto-detected) |
 
 
