@@ -1,6 +1,6 @@
 # Ollama Model Transfer
 
-A utility script to export Ollama models by copying their manifest and blob files to a portable directory structure for easy backup or transfer. You can then transfer them to another system by merging the parent folder.
+A utility script which identifies all of the files that ollama associates with the selected model(s)--usually the model, modelfile, template, parameters, and license--and duplicates the files and directory structure to a target location for easy backup or transfer.
 
 ## Configuration
 
